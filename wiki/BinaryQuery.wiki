@@ -12,7 +12,7 @@ CREATE TABLE `flash_bitmap` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
 }}}
 
-
+binaryQuery example:
 {{{
 connector.binaryQuery( queryString, "wildcard", dataToSave );
 //queryString:String, wildCard:String, data:ByteArray
