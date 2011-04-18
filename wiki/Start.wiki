@@ -1,6 +1,6 @@
 Using of ASQL is very simple, very similar to URLLoader and other native classes. There are a few basic events available, 
 {{{
-SQLEvent.CONNECT;// When connections is established
+SQLEvent.CONNECT;// When connection is established
 
 SQLEvent.SQL_ERROR;// Whenever any SQL error is received
 
