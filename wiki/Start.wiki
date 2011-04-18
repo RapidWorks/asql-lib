@@ -36,7 +36,7 @@ package {
 		private function handleConnect ( evt:SQLEvent ) :void
 		{
 			trace("ASQL is connected");
-         	connector.query("select * from book");
+         	connector.query("select * from book");//Mysql query, dont have to be in any special form, just use it as you would on server side
 		}
 		private function handleError ( evt:SQLError ) :void
 		{
