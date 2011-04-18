@@ -1,13 +1,13 @@
-Using of ASQL is very simple, very similar to URLLoader and other nativa classes. There are a few basic events available, 
+Using of ASQL is very simple, very similar to URLLoader and other native classes. There are a few basic events available, 
+{{{
+SQLEvent.CONNECT;// When connections is established
 
-SQLEvent.CONNECT When connections is established
+SQLEvent.SQL_ERROR;// Whenever any SQL error is received
 
-SQLEvent.SQL_ERROR Whenever any SQL error is received
+SQLEvent.SQL_OK;// After every successfull INSERT query
 
-SQLEvent.SQL_OK After every successfull INSERT query
-
-SQLEvent.SQL_DATA After every successfull SELECT query.
-
+SQLEvent.SQL_DATA;// After every successfull SELECT query.
+}}}
 Example:
 
 {{{
