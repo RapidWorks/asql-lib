@@ -1,7 +1,7 @@
 To insert ByteArray into BLOB field of mysql table you should use binaryQuery method of Asql object.
 
 
-Mysql table:
+Mysql table with BLOB field example:
 
 {{{
 
